@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+D=(b*b-4*a*c)**(1/2)
+print((D-b)/(2*a))
+print((-(D+b)/(2*a))
