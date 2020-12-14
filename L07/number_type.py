@@ -3,10 +3,10 @@
 # 並顯示結果，結果如 '正偶數'、'偶數'、'負偶數'、'正奇數'、'負奇數'
 x = int(input("請輸入一個整數"))
 if  x%2==0 :
-  if  x>0 :
+  if  x=>0 :
     print('正偶數')
   else: print('負偶數')
 else :
-  if x>0 :
+  if x=>0 :
     print('正奇數')
   else:print('負奇數')
