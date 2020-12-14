@@ -25,14 +25,13 @@ chess = 'x'
 
 # 提示使用者輸入棋子位置（整數 0-9 ），保存在變數 position，
 # TODO: 程式寫這裡
-position = input("輸入整數0~9")
-
+position = input("輸入整數0~9" + '\n')
+position = 'cell_' + str(position)
 # 檢查該棋盤格位置是否可以落子（可以放棋子在上面），
 # 如果不行，顯示 '錯誤，
 #此位置已經有棋子了，結束程式'，並退出程式
 # TODO: 程式寫這裡
-if 'cell_' + position is None:
-  'cell_' + position= chess
+if position is None:
   print(' '+cell_1 + ' | '+ cell_2 +' | '+ cell_3+' ')
   print('---+---+---')
   print(' '+cell_4 + ' | '+ cell_5 +' | '+ cell_6+' ')
